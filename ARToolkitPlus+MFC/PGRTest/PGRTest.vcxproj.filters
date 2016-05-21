@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{b57cc252-fe8c-4c28-b5ab-8b1751420962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\GL">
+      <UniqueIdentifier>{2b8a8f80-78ad-4682-9649-28189b61bcfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\GL\vw">
+      <UniqueIdentifier>{e0707692-edca-468a-a8d7-27ad193de50a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3d">
+      <UniqueIdentifier>{849566d2-94da-42df-93d4-71d134cba951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\Image">
+      <UniqueIdentifier>{e2693e52-6c82-4395-8242-c1e6a2aced1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="working">
+      <UniqueIdentifier>{7f01471d-9abd-4f3f-bd4c-9eb57fbc6094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\CV">
+      <UniqueIdentifier>{d02c3557-0eb8-4799-ae7b-3f585a01cf3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\CV\AR">
+      <UniqueIdentifier>{4abd3a69-6e9b-4f0f-ab30-6885c659fae9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="UserImages.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PGRTest.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PGRTestDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PGRTest.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PGRTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PGRTestDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\FlyCapture2\PGRCamera.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\guicon.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\Elapsed.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ddCVMacro.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ttMath.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\FileProc.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ddMacros.h">
+      <Filter>lib\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\vArray.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\VString.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\vToken.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\PTRList.h">
+      <Filter>lib\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\vw\cameraSimple.h">
+      <Filter>lib\GL\vw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\vw\vwCamera.h">
+      <Filter>lib\GL\vw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\vw\vwDisplacement.h">
+      <Filter>lib\GL\vw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\vw\vwLight.h">
+      <Filter>lib\GL\vw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\vw\vwLine.h">
+      <Filter>lib\GL\vw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\vw\vwLineSegment.h">
+      <Filter>lib\GL\vw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\vw\vwMath.h">
+      <Filter>lib\GL\vw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\vw\vwMathGeometry.h">
+      <Filter>lib\GL\vw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\vw\vwO.h">
+      <Filter>lib\GL\vw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\vw\vwObj.h">
+      <Filter>lib\GL\vw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\vw\vwPlane.h">
+      <Filter>lib\GL\vw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\vw\vwPlaneParam.h">
+      <Filter>lib\GL\vw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\vw\vwPrimitives.h">
+      <Filter>lib\GL\vw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\vw\vwTexture.h">
+      <Filter>lib\GL\vw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\vw\xRGB.h">
+      <Filter>lib\GL\vw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\DBG.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\xRGB.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\FileName.h">
+      <Filter>lib\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ddArray.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\3d\dhMat.h">
+      <Filter>Header Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\3d\dhQuat.h">
+      <Filter>Header Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\3d\dhVector.h">
+      <Filter>Header Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\3d\dhVector4.h">
+      <Filter>Header Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\png\CPImage.h">
+      <Filter>lib\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\Triangle.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ddmath.h">
+      <Filter>lib\GL\vw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\GL\GLTouch.h">
+      <Filter>working</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\vw\vwImageObj.h">
+      <Filter>lib\GL\vw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\GL\GL.h">
+      <Filter>working</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\CvvImage.h">
+      <Filter>lib\CV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\BaseCV.h">
+      <Filter>lib\CV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ARToolKitPlus\of\ofConstants.h">
+      <Filter>lib\CV\AR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ARToolKitPlus\of\ofMath.h">
+      <Filter>lib\CV\AR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ARToolKitPlus\of\ofMatrix3x3.h">
+      <Filter>lib\CV\AR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ARToolKitPlus\of\ofMatrix4x4.h">
+      <Filter>lib\CV\AR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ARToolKitPlus\of\ofPoint.h">
+      <Filter>lib\CV\AR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ARToolKitPlus\of\ofQuaternion.h">
+      <Filter>lib\CV\AR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ARToolKitPlus\of\ofVec2f.h">
+      <Filter>lib\CV\AR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ARToolKitPlus\of\ofVec3f.h">
+      <Filter>lib\CV\AR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ARToolKitPlus\of\ofVec4f.h">
+      <Filter>lib\CV\AR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ARToolKitPlus\of\ofVectorMath.h">
+      <Filter>lib\CV\AR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ARToolKitPlus\of\ofTemp.h">
+      <Filter>lib\CV\AR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ARToolKitPlus\ofxARToolkitPlus.h">
+      <Filter>working</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cmdedit.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="PGRTestView.h">
+      <Filter>working</Filter>
+    </ClInclude>
+    <ClInclude Include="CamWnd.h">
+      <Filter>working</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ddStatic.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PGRTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PGRTestDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\guicon.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\Elapsed.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\FileProc.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\VString.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\vToken.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\PTRList.cpp">
+      <Filter>lib\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\vw\vwCamera.cpp">
+      <Filter>lib\GL\vw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\vw\vwDisplacement.cpp">
+      <Filter>lib\GL\vw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\vw\vwLight.cpp">
+      <Filter>lib\GL\vw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\vw\vwLine.cpp">
+      <Filter>lib\GL\vw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\vw\vwLineSegment.cpp">
+      <Filter>lib\GL\vw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\vw\vwMath.cpp">
+      <Filter>lib\GL\vw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\vw\vwO.cpp">
+      <Filter>lib\GL\vw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\vw\vwObj.cpp">
+      <Filter>lib\GL\vw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\vw\vwPlane.cpp">
+      <Filter>lib\GL\vw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\vw\vwPlaneParam.cpp">
+      <Filter>lib\GL\vw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\vw\vwTexture.cpp">
+      <Filter>lib\GL\vw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\FileName.cpp">
+      <Filter>lib\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\3d\dhMat.cpp">
+      <Filter>Header Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\3d\dhQuat.cpp">
+      <Filter>Header Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\3d\dhVector.cpp">
+      <Filter>Header Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\3d\dhVector4.cpp">
+      <Filter>Header Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\png\CPImage.cpp">
+      <Filter>lib\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\Triangle.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\GL\GLTouch.cpp">
+      <Filter>working</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\vw\vwImageObj.cpp">
+      <Filter>lib\GL\vw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\GL\GL.cpp">
+      <Filter>working</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\CvvImage.cpp">
+      <Filter>lib\CV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\BaseCV.cpp">
+      <Filter>lib\CV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\ARToolKitPlus\of\ofMath.cpp">
+      <Filter>lib\CV\AR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\ARToolKitPlus\of\ofMatrix3x3.cpp">
+      <Filter>lib\CV\AR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\ARToolKitPlus\of\ofMatrix4x4.cpp">
+      <Filter>lib\CV\AR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\ARToolKitPlus\of\ofPoint.cpp">
+      <Filter>lib\CV\AR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\ARToolKitPlus\of\ofQuaternion.cpp">
+      <Filter>lib\CV\AR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\ARToolKitPlus\of\ofVec2f.cpp">
+      <Filter>lib\CV\AR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\ARToolKitPlus\of\ofVec4f.cpp">
+      <Filter>lib\CV\AR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\ARToolKitPlus\ofxARToolkitPlus.cpp">
+      <Filter>working</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\CMDEdit.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="PGRTestView.cpp">
+      <Filter>working</Filter>
+    </ClCompile>
+    <ClCompile Include="CamWnd.cpp">
+      <Filter>working</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\ddStatic.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PGRTest.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\lib\png\png\Release\png.lib">
+      <Filter>lib\Image</Filter>
+    </Library>
+    <Library Include="..\lib\png\zlib\Release\zlib.lib">
+      <Filter>lib\Image</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

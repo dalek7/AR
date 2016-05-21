@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: zlib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Dalek\AppData\Local\Temp\RSP7292.tmp" with contents
+[
+/nologo /MDd /W3 /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"C:\FL\lib\png\zlib\Adler32.c"
+"C:\FL\lib\png\zlib\Compress.c"
+"C:\FL\lib\png\zlib\Crc32.c"
+"C:\FL\lib\png\zlib\Deflate.c"
+"C:\FL\lib\png\zlib\Gzio.c"
+"C:\FL\lib\png\zlib\Infblock.c"
+"C:\FL\lib\png\zlib\Infcodes.c"
+"C:\FL\lib\png\zlib\Inffast.c"
+"C:\FL\lib\png\zlib\Inflate.c"
+"C:\FL\lib\png\zlib\Inftrees.c"
+"C:\FL\lib\png\zlib\Infutil.c"
+"C:\FL\lib\png\zlib\Trees.c"
+"C:\FL\lib\png\zlib\Uncompr.c"
+"C:\FL\lib\png\zlib\Zutil.c"
+]
+Creating command line "cl.exe @C:\Users\Dalek\AppData\Local\Temp\RSP7292.tmp" 
+Creating temporary file "C:\Users\Dalek\AppData\Local\Temp\RSP7293.tmp" with contents
+[
+/nologo /out:".\Debug\zlib.lib" 
+.\Debug\Adler32.obj
+.\Debug\Compress.obj
+.\Debug\Crc32.obj
+.\Debug\Deflate.obj
+.\Debug\Gzio.obj
+.\Debug\Infblock.obj
+.\Debug\Infcodes.obj
+.\Debug\Inffast.obj
+.\Debug\Inflate.obj
+.\Debug\Inftrees.obj
+.\Debug\Infutil.obj
+.\Debug\Trees.obj
+.\Debug\Uncompr.obj
+.\Debug\Zutil.obj
+]
+Creating command line "link.exe -lib @C:\Users\Dalek\AppData\Local\Temp\RSP7293.tmp"
+<h3>Output Window</h3>
+Compiling...
+Adler32.c
+Compress.c
+Crc32.c
+Deflate.c
+Gzio.c
+Infblock.c
+Infcodes.c
+Inffast.c
+Inflate.c
+Inftrees.c
+Infutil.c
+Trees.c
+Uncompr.c
+Zutil.c
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+zlib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
