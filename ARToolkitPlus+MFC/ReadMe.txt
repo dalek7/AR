@@ -9,5 +9,7 @@ Thanks Karl !!
 
 Application was tested in VS10 with OpenCV 2.4.x.
 
+<img src="screenshot_1.png">
+
 Seung-Chan Kim 
 5/19/2014
